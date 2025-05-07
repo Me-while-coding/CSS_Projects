@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+/* keyword directions */
+
+.box1{background: linear-gradient(to right,red,blue);}
+
+.box2{background: linear-gradient(to left,red,blue);}
+
+.box3{background: linear-gradient(to bottom,red,blue);}
+
+.box4{background: linear-gradient(to top,red,blue);}
+
+.box5{background: linear-gradient(to right,red,blue);}
+
+.box6{background: linear-gradient(to bottom right,red,blue);}
+
+.box7{background: linear-gradient(to bottom left,red,blue);}
+
+/* angle direction in clockwise from vertical */
+.box8{background:linear-gradient(0deg,black,white);}
+.box9{background:linear-gradient(45deg,black,white);}
+.box10{background:linear-gradient(90deg,black,white);}
+.box11{background:linear-gradient(135deg,black,white);}
+.box12{background:linear-gradient(180deg,black,white);}
+.box13{background:linear-gradient(115deg,black,white);}
+.box14{background:linear-gradient(0deg,black,white);}
+
+/* color_stops */
+
+.box15{
+    background:linear-gradient(to right,red 0%,blue 40% , white 50% , aqua 70%);
+}
